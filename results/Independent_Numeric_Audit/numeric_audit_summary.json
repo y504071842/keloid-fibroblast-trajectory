@@ -1,0 +1,126 @@
+{
+  "validation_composition": {
+    "n_all": 17020,
+    "n_confident": 7442,
+    "stats": [
+      {
+        "analysis": "all_cells",
+        "state": "ECM-producing fibroblasts",
+        "n_keloid_donors": 3,
+        "n_normal_donors": 3,
+        "median_keloid": 0.5211531261699738,
+        "median_normal": 0.021917007597895968,
+        "cliffs_delta": 1.0,
+        "exact_mann_whitney_p": 0.1
+      },
+      {
+        "analysis": "all_cells",
+        "state": "Homeostatic/regulatory fibroblasts",
+        "n_keloid_donors": 3,
+        "n_normal_donors": 3,
+        "median_keloid": 0.0943466866342194,
+        "median_normal": 0.6107539450613676,
+        "cliffs_delta": -1.0,
+        "exact_mann_whitney_p": 0.1
+      },
+      {
+        "analysis": "all_cells",
+        "state": "Matrix-remodeling fibroblasts",
+        "n_keloid_donors": 3,
+        "n_normal_donors": 3,
+        "median_keloid": 0.3612068965517241,
+        "median_normal": 0.3673290473407364,
+        "cliffs_delta": -0.3333333333333333,
+        "exact_mann_whitney_p": 0.7
+      },
+      {
+        "analysis": "confident_clusters_only",
+        "state": "ECM-producing fibroblasts",
+        "n_keloid_donors": 3,
+        "n_normal_donors": 3,
+        "median_keloid": 0.9482288828337875,
+        "median_normal": 0.07928118393234672,
+        "cliffs_delta": 1.0,
+        "exact_mann_whitney_p": 0.1
+      },
+      {
+        "analysis": "confident_clusters_only",
+        "state": "Homeostatic/regulatory fibroblasts",
+        "n_keloid_donors": 3,
+        "n_normal_donors": 3,
+        "median_keloid": 0.043596730245231606,
+        "median_normal": 0.8911205073995772,
+        "cliffs_delta": -1.0,
+        "exact_mann_whitney_p": 0.1
+      },
+      {
+        "analysis": "confident_clusters_only",
+        "state": "Matrix-remodeling fibroblasts",
+        "n_keloid_donors": 3,
+        "n_normal_donors": 3,
+        "median_keloid": 0.008174386920980926,
+        "median_normal": 0.02959830866807611,
+        "cliffs_delta": -0.7777777777777778,
+        "exact_mann_whitney_p": 0.2
+      }
+    ]
+  },
+  "bulk": {
+    "point_estimates": [
+      {
+        "score": "clean_D1_loss",
+        "n": 77,
+        "events": 7,
+        "median_recurrence": 0.246413196033867,
+        "median_nonrecurrence": -0.1266151310037935,
+        "wilcoxon_asymptotic_continuity_p": 0.046215981411976165,
+        "cliffs_delta": 0.46122448979591835,
+        "roc_auc": 0.7306122448979592,
+        "average_precision": 0.3048002149825858,
+        "matches_primary_wilcoxon": true,
+        "matches_primary_auc": true,
+        "matches_primary_average_precision": true
+      },
+      {
+        "score": "clean_D2",
+        "n": 77,
+        "events": 7,
+        "median_recurrence": -0.433653754799516,
+        "median_nonrecurrence": 0.160665558182928,
+        "wilcoxon_asymptotic_continuity_p": 0.4951181594022074,
+        "cliffs_delta": -0.15918367346938775,
+        "roc_auc": 0.4204081632653061,
+        "average_precision": 0.2211001053114627,
+        "matches_primary_wilcoxon": true,
+        "matches_primary_auc": true,
+        "matches_primary_average_precision": true
+      },
+      {
+        "score": "five_hub",
+        "n": 77,
+        "events": 7,
+        "median_recurrence": 0.48844849371524,
+        "median_nonrecurrence": 0.02812830524886465,
+        "wilcoxon_asymptotic_continuity_p": 0.3999759030759058,
+        "cliffs_delta": 0.19591836734693877,
+        "roc_auc": 0.5979591836734693,
+        "average_precision": 0.3572504222359783,
+        "matches_primary_wilcoxon": true,
+        "matches_primary_auc": true,
+        "matches_primary_average_precision": true
+      }
+    ],
+    "paired_stratified_bootstrap": {
+      "design": "5000 paired, recurrence-stratified bootstrap replicates; seed 20260711",
+      "comparison": "clean_D1_loss minus five_hub",
+      "independently_recomputed_observed_auc_difference": 0.13265306122448983,
+      "reported_observed_auc_difference": 0.13265306122449,
+      "reported_95pct_ci": [
+        -0.214285714285714,
+        0.485714285714286
+      ],
+      "observed_difference_matches": true
+    },
+    "status": "PASS"
+  }
+}

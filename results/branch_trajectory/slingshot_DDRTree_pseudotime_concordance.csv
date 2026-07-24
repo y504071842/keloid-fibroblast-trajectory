@@ -1,0 +1,4 @@
+"mode","lineage","n_cells","spearman_with_DDRTree_graph_pseudotime"
+"forced_two_terminal","lineage1",966,0.421580356857356
+"forced_two_terminal","lineage2",901,0.746568960633626
+"start_only_unsupervised","lineage1",1070,0.768009485889041

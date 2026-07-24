@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article and archived software release."
+title: "Keloid fibroblast trajectory reproducibility package"
+type: software
+authors:
+  - family-names: "Yuan"
+    given-names: "Yutong"
+  - family-names: "Liu"
+    given-names: "Yuanbo"
+  - family-names: "Wei"
+    given-names: "Tianxiao"
+  - family-names: "Zhu"
+    given-names: "Shan"
+  - family-names: "Si"
+    given-names: "Nuo"
+repository-code: "https://github.com/y504071842/keloid-fibroblast-trajectory"
+doi: "10.5281/zenodo.21503331"
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-23"

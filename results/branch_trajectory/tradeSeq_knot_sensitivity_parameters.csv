@@ -1,0 +1,7 @@
+"parameter","value"
+"seed","20260717"
+"candidate_knots","3,4,5,6,7,8"
+"evaluated_gene_n","500"
+"gene_sampling","tradeSeq evaluateK random subset with fixed seed"
+"donor_covariates","TRUE"
+"selection_role","sensitivity assessment of the prespecified tradeSeq default nknots=6"

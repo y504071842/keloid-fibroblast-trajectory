@@ -1,0 +1,14 @@
+component	version	role
+R	4.5.2	Statistical computing
+Seurat	5.5.0	Single-cell preprocessing and clustering
+Harmony	2.0.4	Sample integration
+Monocle	2	DDRTree trajectory reconstruction
+tradeSeq	1.24.0	Negative-binomial trajectory GAM
+mgcv	1.9-4	Donor-aware GAM sensitivity analysis
+WGCNA	See R_sessionInfo.txt	Co-expression analysis and module preservation
+clusterProfiler	4.18.4	Functional enrichment
+Salmon	2.1.1	Transcript-level bulk RNA-seq quantification
+SRA Toolkit	3.4.1	SRA-to-FASTQ conversion
+aria2c	1.37.0	SRA download
+GENCODE transcriptome	release 50	Salmon reference and transcript-to-gene mapping
+

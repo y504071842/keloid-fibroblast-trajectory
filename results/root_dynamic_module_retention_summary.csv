@@ -1,0 +1,7 @@
+"root","original_module","genes","direction_concordance","threshold_retained_fraction","median_rho"
+"Y_1","D1_early_decreasing",45,0,0,0.323644977705088
+"Y_1","D2_late_increasing",1073,0,0,-0.138495871739325
+"Y_114","D1_early_decreasing",45,1,1,-0.299195418397044
+"Y_114","D2_late_increasing",1073,1,1,0.275030266770622
+"Y_56","D1_early_decreasing",45,0,0,0.323625642897056
+"Y_56","D2_late_increasing",1073,0.00279589934762349,0,-0.313722340660637

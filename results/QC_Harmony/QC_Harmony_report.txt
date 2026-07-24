@@ -1,0 +1,162 @@
+                                method dims resolution clusters ARI_program
+mean_sample_entropy...1 PCA_no_Harmony   20        0.3        4   0.3834429
+mean_sample_entropy...2 Harmony_sample   20        0.3        4   0.3316289
+mean_sample_entropy...3 PCA_no_Harmony   30        0.3        4   0.3906084
+mean_sample_entropy...4 Harmony_sample   30        0.3        4   0.3019391
+mean_sample_entropy...5 PCA_no_Harmony   40        0.3        4   0.3928292
+mean_sample_entropy...6 Harmony_sample   40        0.3        4   0.3278899
+                        mean_sample_entropy mean_program_neighbor_purity
+mean_sample_entropy...1           0.2470224                    0.8208723
+mean_sample_entropy...2           0.4536962                    0.8128972
+mean_sample_entropy...3           0.2479832                    0.8134579
+mean_sample_entropy...4           0.4738526                    0.7995639
+mean_sample_entropy...5           0.2528313                    0.8080997
+mean_sample_entropy...6           0.5137357                    0.7933333
+          method resolution n_clusters ARI_program
+1 PCA_no_Harmony        0.1          2   0.1535349
+2 Harmony_sample        0.1          2   0.1201357
+3 PCA_no_Harmony        0.2          3   0.2966105
+4 Harmony_sample        0.2          3   0.2450112
+5 PCA_no_Harmony        0.3          4   0.3906084
+6 Harmony_sample        0.3          4   0.3506661
+7 PCA_no_Harmony        0.4          5   0.4009063
+8 Harmony_sample        0.4          4   0.3506661
+                         omitted_sample         method n_cells n_clusters
+mean_sample_entropy...1         K183156 PCA_no_Harmony     501          2
+mean_sample_entropy...2         K183156 Harmony_sample     501          3
+mean_sample_entropy...3         K183261 PCA_no_Harmony    1021          4
+mean_sample_entropy...4         K183261 Harmony_sample    1021          4
+mean_sample_entropy...5         K712771 PCA_no_Harmony     977          4
+mean_sample_entropy...6         K712771 Harmony_sample     977          4
+mean_sample_entropy...7         N176712 PCA_no_Harmony    1059          4
+mean_sample_entropy...8         N176712 Harmony_sample    1059          4
+mean_sample_entropy...9         N177536 PCA_no_Harmony    1027          4
+mean_sample_entropy...10        N177536 Harmony_sample    1027          4
+mean_sample_entropy...11        N387690 PCA_no_Harmony     765          4
+mean_sample_entropy...12        N387690 Harmony_sample     765          5
+                         ARI_program mean_sample_entropy
+mean_sample_entropy...1    0.2321625           0.2916365
+mean_sample_entropy...2    0.3467145           0.4389506
+mean_sample_entropy...3    0.3908839           0.2116651
+mean_sample_entropy...4    0.3388923           0.4424358
+mean_sample_entropy...5    0.3910944           0.1932065
+mean_sample_entropy...6    0.3015509           0.3964107
+mean_sample_entropy...7    0.3814314           0.2649158
+mean_sample_entropy...8    0.3266926           0.5127074
+mean_sample_entropy...9    0.4042694           0.2380512
+mean_sample_entropy...10   0.3521037           0.4565287
+mean_sample_entropy...11   0.3276765           0.3143671
+mean_sample_entropy...12   0.2678627           0.4862501
+                         mean_program_neighbor_purity
+mean_sample_entropy...1                     0.7654691
+mean_sample_entropy...2                     0.7600798
+mean_sample_entropy...3                     0.8147568
+mean_sample_entropy...4                     0.7961149
+mean_sample_entropy...5                     0.8205049
+mean_sample_entropy...6                     0.7984647
+mean_sample_entropy...7                     0.8115203
+mean_sample_entropy...8                     0.7973875
+mean_sample_entropy...9                     0.8201558
+mean_sample_entropy...10                    0.7970789
+mean_sample_entropy...11                    0.7879303
+mean_sample_entropy...12                    0.7752941
+# A tibble: 12 x 5
+   sample  included_in_trajectory_analysis n_cells predicted_doublets
+   <fct>   <lgl>                            <int>              <int>
+ 1 K183156 FALSE                               74                  5
+ 2 K183156 TRUE                               569                 15
+ 3 K183261 FALSE                                7                  1
+ 4 K183261 TRUE                                49                  0
+ 5 K712771 FALSE                               16                  7
+ 6 K712771 TRUE                                93                  7
+ 7 N176712 FALSE                                5                  0
+ 8 N176712 TRUE                                11                  0
+ 9 N177536 FALSE                               17                  1
+10 N177536 TRUE                                43                  0
+11 N387690 FALSE                              161                 14
+12 N387690 TRUE                               305                  3
+# i 1 more variable: predicted_doublet_fraction <dbl>
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] splines   stats4    stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] future_1.70.0               dplyr_1.2.0                
+ [3] cluster_2.1.8.1             RANN_2.6.2                 
+ [5] scDblFinder_1.24.10         SingleCellExperiment_1.32.0
+ [7] SummarizedExperiment_1.40.0 GenomicRanges_1.62.1       
+ [9] Seqinfo_1.0.0               IRanges_2.44.0             
+[11] S4Vectors_0.48.0            MatrixGenerics_1.22.0      
+[13] matrixStats_1.5.0           harmony_2.0.4              
+[15] Rcpp_1.1.1                  Seurat_5.5.0               
+[17] SeuratObject_5.4.0          sp_2.2-1                   
+[19] monocle_2.99.0              DDRTree_0.1.6              
+[21] irlba_2.3.7                 VGAM_1.1-14                
+[23] ggplot2_4.0.3               Biobase_2.70.0             
+[25] BiocGenerics_0.56.0         generics_0.1.4             
+[27] Matrix_1.7-4               
+
+loaded via a namespace (and not attached):
+  [1] RcppAnnoy_0.0.23         later_1.4.8              BiocIO_1.20.0           
+  [4] bitops_1.0-9             tibble_3.3.1             polyclip_1.10-7         
+  [7] XML_3.99-0.23            fastDummies_1.7.6        lifecycle_1.0.5         
+ [10] edgeR_4.8.2              globals_0.19.1           lattice_0.22-7          
+ [13] MASS_7.3-65              magrittr_2.0.4           limma_3.66.0            
+ [16] plotly_4.12.0            yaml_2.3.12              metapod_1.18.0          
+ [19] httpuv_1.6.17            otel_0.2.0               sctransform_0.4.3       
+ [22] spam_2.11-4              spatstat.sparse_3.2-0    reticulate_1.46.0       
+ [25] cowplot_1.2.0            pbapply_1.7-4            RColorBrewer_1.1-3      
+ [28] abind_1.4-8              Rtsne_0.17               purrr_1.2.2             
+ [31] RCurl_1.98-1.19          ggrepel_0.9.8            listenv_0.10.1          
+ [34] spatstat.utils_3.2-3     pheatmap_1.0.13          goftest_1.2-3           
+ [37] RSpectra_0.16-2          dqrng_0.4.1              spatstat.random_3.5-0   
+ [40] fitdistrplus_1.2-6       parallelly_1.47.0        codetools_0.2-20        
+ [43] DelayedArray_0.36.0      scuttle_1.20.0           tidyselect_1.2.1        
+ [46] UCSC.utils_1.6.1         farver_2.1.2             ScaledMatrix_1.18.0     
+ [49] viridis_0.6.5            spatstat.explore_3.8-1   GenomicAlignments_1.46.0
+ [52] jsonlite_2.0.0           BiocNeighbors_2.4.0      progressr_0.19.0        
+ [55] scater_1.38.1            ggridges_0.5.7           survival_3.8-6          
+ [58] HSMMSingleCell_99.0.0    tools_4.5.2              ica_1.0-3               
+ [61] glue_1.8.0               gridExtra_2.3            SparseArray_1.10.8      
+ [64] GenomeInfoDb_1.46.2      withr_3.0.2              combinat_0.0-8          
+ [67] fastmap_1.2.0            bluster_1.20.0           digest_0.6.39           
+ [70] rsvd_1.0.5               R6_2.6.1                 mime_0.13               
+ [73] scattermore_1.2          tensor_1.5.1             spatstat.data_3.1-9     
+ [76] cigarillo_1.0.0          RhpcBLASctl_0.23-42      utf8_1.2.6              
+ [79] tidyr_1.3.2              data.table_1.18.4        FNN_1.1.4.1             
+ [82] rtracklayer_1.70.1       httr_1.4.8               htmlwidgets_1.6.4       
+ [85] S4Arrays_1.10.1          uwot_0.2.4               pkgconfig_2.0.3         
+ [88] gtable_0.3.6             lmtest_0.9-40            S7_0.2.1                
+ [91] XVector_0.50.0           htmltools_0.5.9          dotCall64_1.2           
+ [94] scales_1.4.0             docopt_0.7.2             png_0.1-9               
+ [97] spatstat.univar_3.2-0    scran_1.38.1             reshape2_1.4.5          
+[100] rjson_0.2.23             nlme_3.1-169             curl_7.1.0              
+[103] zoo_1.8-15               stringr_1.6.0            KernSmooth_2.23-26      
+[106] vipor_0.4.7              parallel_4.5.2           miniUI_0.1.2            
+[109] restfulr_0.0.16          pillar_1.11.1            grid_4.5.2              
+[112] fastICA_1.2-7            vctrs_0.7.1              qlcMatrix_0.9.9         
+[115] slam_0.1-55              promises_1.5.0           BiocSingular_1.26.1     
+[118] beachmat_2.26.0          xtable_1.8-8             beeswarm_0.4.0          
+[121] locfit_1.5-9.12          cli_3.6.5                compiler_4.5.2          
+[124] Rsamtools_2.26.0         rlang_1.1.7              crayon_1.5.3            
+[127] future.apply_1.20.2      densityClust_0.3.3       ggbeeswarm_0.7.3        
+[130] plyr_1.8.9               stringi_1.8.7            viridisLite_0.4.3       
+[133] deldir_2.0-4             BiocParallel_1.44.0      Biostrings_2.78.0       
+[136] lazyeval_0.2.3           spatstat.geom_3.8-1      sparsesvd_0.2-3         
+[139] RcppHNSW_0.7.0           patchwork_1.3.2          statmod_1.5.2           
+[142] shiny_1.13.0             ROCR_1.0-12              igraph_2.2.2            
+[145] xgboost_3.2.1.1         

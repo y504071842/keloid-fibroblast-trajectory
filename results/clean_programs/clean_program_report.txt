@@ -1,0 +1,332 @@
+       dynamic_module observed_direction
+1 D1_early_decreasing         decreasing
+2 D1_early_decreasing         decreasing
+3 D1_early_decreasing         decreasing
+4  D2_late_increasing         decreasing
+5  D2_late_increasing         increasing
+6  D2_late_increasing         increasing
+7  D2_late_increasing         increasing
+                          exclusion_reason clean_module gene_n
+1           histone_or_keratin_nonspecific         <NA>      2
+2    mitochondrial_ribosomal_or_hemoglobin         <NA>      1
+3                                 retained     clean_D1     42
+4 direction_discordant_with_kmeans_program         <NA>     81
+5           histone_or_keratin_nonspecific         <NA>      2
+6    mitochondrial_ribosomal_or_hemoglobin         <NA>     15
+7                                 retained     clean_D2    975
+Set sizes:
+                             clean_D1                              clean_D2 
+                                   42                                   975 
+             branch_common_increasing branch_mixed_remodeling_branch_biased 
+                                  452                                   513 
+    branch_ecm_dominant_branch_biased              branch_common_decreasing 
+                                   16                                    35 
+Top GO:
+                                             gene_set database
+GO:0030198...1               branch_common_increasing    GO_BP
+GO:0043062...2               branch_common_increasing    GO_BP
+GO:0045229...3               branch_common_increasing    GO_BP
+GO:0007155...4               branch_common_increasing    GO_BP
+GO:0072359...5               branch_common_increasing    GO_BP
+GO:0032501...6               branch_common_increasing    GO_BP
+GO:0001944...7               branch_common_increasing    GO_BP
+GO:0030199...8               branch_common_increasing    GO_BP
+GO:0001568...9               branch_common_increasing    GO_BP
+GO:0048514...10              branch_common_increasing    GO_BP
+GO:0048856...11              branch_common_increasing    GO_BP
+GO:0007275...12              branch_common_increasing    GO_BP
+GO:0016477...13              branch_common_increasing    GO_BP
+GO:0030334...14              branch_common_increasing    GO_BP
+GO:0009653...15              branch_common_increasing    GO_BP
+GO:0009060...16 branch_mixed_remodeling_branch_biased    GO_BP
+GO:0015980...17 branch_mixed_remodeling_branch_biased    GO_BP
+GO:0019637...18 branch_mixed_remodeling_branch_biased    GO_BP
+GO:0048870...19              branch_common_increasing    GO_BP
+GO:0048608...20                              clean_D1    GO_BP
+GO:0030154...21                              clean_D1    GO_BP
+GO:0048869...22                              clean_D1    GO_BP
+GO:0061458...23                              clean_D1    GO_BP
+GO:0045595...24              branch_common_decreasing    GO_BP
+GO:0030326...25              branch_common_decreasing    GO_BP
+GO:0035113...26              branch_common_decreasing    GO_BP
+GO:0048608...27              branch_common_decreasing    GO_BP
+GO:0030154...28              branch_common_decreasing    GO_BP
+GO:0048869...29              branch_common_decreasing    GO_BP
+GO:0022008...30              branch_common_decreasing    GO_BP
+                                                        Description
+GO:0030198...1                    extracellular matrix organization
+GO:0043062...2                 extracellular structure organization
+GO:0045229...3        external encapsulating structure organization
+GO:0007155...4                                        cell adhesion
+GO:0072359...5                       circulatory system development
+GO:0032501...6                     multicellular organismal process
+GO:0001944...7                              vasculature development
+GO:0030199...8                         collagen fibril organization
+GO:0001568...9                             blood vessel development
+GO:0048514...10                          blood vessel morphogenesis
+GO:0048856...11                    anatomical structure development
+GO:0007275...12                  multicellular organism development
+GO:0016477...13                                      cell migration
+GO:0030334...14                        regulation of cell migration
+GO:0009653...15                  anatomical structure morphogenesis
+GO:0009060...16                                 aerobic respiration
+GO:0015980...17 energy derivation by oxidation of organic compounds
+GO:0019637...18                   organophosphate metabolic process
+GO:0048870...19                                       cell motility
+GO:0048608...20                  reproductive structure development
+GO:0030154...21                                cell differentiation
+GO:0048869...22                      cellular developmental process
+GO:0061458...23                     reproductive system development
+GO:0045595...24                  regulation of cell differentiation
+GO:0030326...25                        embryonic limb morphogenesis
+GO:0035113...26                   embryonic appendage morphogenesis
+GO:0048608...27                  reproductive structure development
+GO:0030154...28                                cell differentiation
+GO:0048869...29                      cellular developmental process
+GO:0022008...30                                        neurogenesis
+                    p.adjust Count
+GO:0030198...1  4.227496e-09    58
+GO:0043062...2  4.227496e-09    58
+GO:0045229...3  4.227496e-09    58
+GO:0007155...4  4.227496e-09   107
+GO:0072359...5  1.507329e-06    85
+GO:0032501...6  2.494350e-06   234
+GO:0001944...7  6.425847e-06    68
+GO:0030199...8  6.859628e-06    30
+GO:0001568...9  1.465492e-05    65
+GO:0048514...10 1.577915e-05    58
+GO:0048856...11 3.074478e-05   213
+GO:0007275...12 3.442458e-05   182
+GO:0016477...13 3.442458e-05   101
+GO:0030334...14 3.623825e-05    75
+GO:0009653...15 4.311578e-05   139
+GO:0009060...16 5.444932e-05    26
+GO:0015980...17 5.444932e-05    32
+GO:0019637...18 5.444932e-05    51
+GO:0048870...19 5.521498e-05   104
+GO:0048608...20 6.426583e-05     9
+GO:0030154...21 6.426583e-05    28
+GO:0048869...22 6.426583e-05    28
+GO:0061458...23 6.426583e-05     9
+GO:0045595...24 9.286099e-05    17
+GO:0030326...25 9.286099e-05     6
+GO:0035113...26 9.286099e-05     6
+GO:0048608...27 9.286099e-05     8
+GO:0030154...28 9.286099e-05    24
+GO:0048869...29 9.286099e-05    24
+GO:0022008...30 9.286099e-05    16
+Top Hallmark/KEGG/Reactome:
+                                                                                                                                                                   gene_set
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION...1                                                                                                     branch_common_increasing
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION...2                                                                                                     branch_common_increasing
+REACTOME_COLLAGEN_FORMATION...3                                                                                                                    branch_common_increasing
+REACTOME_COLLAGEN_BIOSYNTHESIS_AND_MODIFYING_ENZYMES...4                                                                                           branch_common_increasing
+KEGG_PARKINSONS_DISEASE...5                                                                                                           branch_mixed_remodeling_branch_biased
+KEGG_HUNTINGTONS_DISEASE...6                                                                                                          branch_mixed_remodeling_branch_biased
+KEGG_OXIDATIVE_PHOSPHORYLATION...7                                                                                                    branch_mixed_remodeling_branch_biased
+REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES...8                                                                          branch_common_increasing
+REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX...9                                                                                               branch_common_increasing
+KEGG_ECM_RECEPTOR_INTERACTION...10                                                                                                                 branch_common_increasing
+KEGG_FOCAL_ADHESION...11                                                                                                                           branch_common_increasing
+HALLMARK_OXIDATIVE_PHOSPHORYLATION...12                                                                                               branch_mixed_remodeling_branch_biased
+REACTOME_RESPIRATORY_ELECTRON_TRANSPORT...13                                                                                          branch_mixed_remodeling_branch_biased
+REACTOME_COLLAGEN_CHAIN_TRIMERIZATION...14                                                                                                         branch_common_increasing
+REACTOME_ECM_PROTEOGLYCANS...15                                                                                                                    branch_common_increasing
+REACTOME_COLLAGEN_DEGRADATION...16                                                                                                                 branch_common_increasing
+KEGG_ALZHEIMERS_DISEASE...17                                                                                                          branch_mixed_remodeling_branch_biased
+REACTOME_AEROBIC_RESPIRATION_AND_RESPIRATORY_ELECTRON_TRANSPORT...18                                                                  branch_mixed_remodeling_branch_biased
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES_OF_THE_EXOCRINE_PANCREAS...19                                                                                 branch_common_increasing
+REACTOME_DEVELOPMENTAL_LINEAGE_OF_PANCREATIC_DUCTAL_CELLS...20                                                                                     branch_common_increasing
+REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS...21                                                                                               branch_common_increasing
+REACTOME_MET_ACTIVATES_PTK2_SIGNALING...22                                                                                                         branch_common_increasing
+REACTOME_MET_PROMOTES_CELL_MOTILITY...23                                                                                                           branch_common_increasing
+REACTOME_SIGNALING_BY_PDGF...24                                                                                                                    branch_common_increasing
+REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS...25              branch_common_increasing
+REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS...26                                                                                                   branch_common_increasing
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES...27                                                                                                          branch_common_increasing
+REACTOME_POST_TRANSLATIONAL_PROTEIN_MODIFICATION...28                                                                                                              clean_D2
+KEGG_PATHWAYS_IN_CANCER...29                                                                                                                       branch_common_decreasing
+KEGG_TGF_BETA_SIGNALING_PATHWAY...30                                                                                                               branch_common_decreasing
+                                                                                                                                                database
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION...1                                                                                           MSigDB_Reactome
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION...2                                                                                           MSigDB_Hallmark
+REACTOME_COLLAGEN_FORMATION...3                                                                                                          MSigDB_Reactome
+REACTOME_COLLAGEN_BIOSYNTHESIS_AND_MODIFYING_ENZYMES...4                                                                                 MSigDB_Reactome
+KEGG_PARKINSONS_DISEASE...5                                                                                                           MSigDB_KEGG_Legacy
+KEGG_HUNTINGTONS_DISEASE...6                                                                                                          MSigDB_KEGG_Legacy
+KEGG_OXIDATIVE_PHOSPHORYLATION...7                                                                                                    MSigDB_KEGG_Legacy
+REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES...8                                                                MSigDB_Reactome
+REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX...9                                                                                     MSigDB_Reactome
+KEGG_ECM_RECEPTOR_INTERACTION...10                                                                                                    MSigDB_KEGG_Legacy
+KEGG_FOCAL_ADHESION...11                                                                                                              MSigDB_KEGG_Legacy
+HALLMARK_OXIDATIVE_PHOSPHORYLATION...12                                                                                                  MSigDB_Hallmark
+REACTOME_RESPIRATORY_ELECTRON_TRANSPORT...13                                                                                             MSigDB_Reactome
+REACTOME_COLLAGEN_CHAIN_TRIMERIZATION...14                                                                                               MSigDB_Reactome
+REACTOME_ECM_PROTEOGLYCANS...15                                                                                                          MSigDB_Reactome
+REACTOME_COLLAGEN_DEGRADATION...16                                                                                                       MSigDB_Reactome
+KEGG_ALZHEIMERS_DISEASE...17                                                                                                          MSigDB_KEGG_Legacy
+REACTOME_AEROBIC_RESPIRATION_AND_RESPIRATORY_ELECTRON_TRANSPORT...18                                                                     MSigDB_Reactome
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES_OF_THE_EXOCRINE_PANCREAS...19                                                                       MSigDB_Reactome
+REACTOME_DEVELOPMENTAL_LINEAGE_OF_PANCREATIC_DUCTAL_CELLS...20                                                                           MSigDB_Reactome
+REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS...21                                                                                     MSigDB_Reactome
+REACTOME_MET_ACTIVATES_PTK2_SIGNALING...22                                                                                               MSigDB_Reactome
+REACTOME_MET_PROMOTES_CELL_MOTILITY...23                                                                                                 MSigDB_Reactome
+REACTOME_SIGNALING_BY_PDGF...24                                                                                                          MSigDB_Reactome
+REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS...25    MSigDB_Reactome
+REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS...26                                                                                         MSigDB_Reactome
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES...27                                                                                                MSigDB_Reactome
+REACTOME_POST_TRANSLATIONAL_PROTEIN_MODIFICATION...28                                                                                    MSigDB_Reactome
+KEGG_PATHWAYS_IN_CANCER...29                                                                                                          MSigDB_KEGG_Legacy
+KEGG_TGF_BETA_SIGNALING_PATHWAY...30                                                                                                  MSigDB_KEGG_Legacy
+                                                                                                                                                                                                                                                           Description
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION...1                                                                                                                                                                              REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION...2                                                                                                                                                                              HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION
+REACTOME_COLLAGEN_FORMATION...3                                                                                                                                                                                                            REACTOME_COLLAGEN_FORMATION
+REACTOME_COLLAGEN_BIOSYNTHESIS_AND_MODIFYING_ENZYMES...4                                                                                                                                                          REACTOME_COLLAGEN_BIOSYNTHESIS_AND_MODIFYING_ENZYMES
+KEGG_PARKINSONS_DISEASE...5                                                                                                                                                                                                                    KEGG_PARKINSONS_DISEASE
+KEGG_HUNTINGTONS_DISEASE...6                                                                                                                                                                                                                  KEGG_HUNTINGTONS_DISEASE
+KEGG_OXIDATIVE_PHOSPHORYLATION...7                                                                                                                                                                                                      KEGG_OXIDATIVE_PHOSPHORYLATION
+REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES...8                                                                                                                        REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES
+REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX...9                                                                                                                                                                  REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX
+KEGG_ECM_RECEPTOR_INTERACTION...10                                                                                                                                                                                                       KEGG_ECM_RECEPTOR_INTERACTION
+KEGG_FOCAL_ADHESION...11                                                                                                                                                                                                                           KEGG_FOCAL_ADHESION
+HALLMARK_OXIDATIVE_PHOSPHORYLATION...12                                                                                                                                                                                             HALLMARK_OXIDATIVE_PHOSPHORYLATION
+REACTOME_RESPIRATORY_ELECTRON_TRANSPORT...13                                                                                                                                                                                   REACTOME_RESPIRATORY_ELECTRON_TRANSPORT
+REACTOME_COLLAGEN_CHAIN_TRIMERIZATION...14                                                                                                                                                                                       REACTOME_COLLAGEN_CHAIN_TRIMERIZATION
+REACTOME_ECM_PROTEOGLYCANS...15                                                                                                                                                                                                             REACTOME_ECM_PROTEOGLYCANS
+REACTOME_COLLAGEN_DEGRADATION...16                                                                                                                                                                                                       REACTOME_COLLAGEN_DEGRADATION
+KEGG_ALZHEIMERS_DISEASE...17                                                                                                                                                                                                                   KEGG_ALZHEIMERS_DISEASE
+REACTOME_AEROBIC_RESPIRATION_AND_RESPIRATORY_ELECTRON_TRANSPORT...18                                                                                                                                   REACTOME_AEROBIC_RESPIRATION_AND_RESPIRATORY_ELECTRON_TRANSPORT
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES_OF_THE_EXOCRINE_PANCREAS...19                                                                                                                                       REACTOME_DEVELOPMENTAL_CELL_LINEAGES_OF_THE_EXOCRINE_PANCREAS
+REACTOME_DEVELOPMENTAL_LINEAGE_OF_PANCREATIC_DUCTAL_CELLS...20                                                                                                                                               REACTOME_DEVELOPMENTAL_LINEAGE_OF_PANCREATIC_DUCTAL_CELLS
+REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS...21                                                                                                                                                                   REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS
+REACTOME_MET_ACTIVATES_PTK2_SIGNALING...22                                                                                                                                                                                       REACTOME_MET_ACTIVATES_PTK2_SIGNALING
+REACTOME_MET_PROMOTES_CELL_MOTILITY...23                                                                                                                                                                                           REACTOME_MET_PROMOTES_CELL_MOTILITY
+REACTOME_SIGNALING_BY_PDGF...24                                                                                                                                                                                                             REACTOME_SIGNALING_BY_PDGF
+REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS...25 REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS
+REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS...26                                                                                                                                                                           REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES...27                                                                                                                                                                                         REACTOME_DEVELOPMENTAL_CELL_LINEAGES
+REACTOME_POST_TRANSLATIONAL_PROTEIN_MODIFICATION...28                                                                                                                                                                 REACTOME_POST_TRANSLATIONAL_PROTEIN_MODIFICATION
+KEGG_PATHWAYS_IN_CANCER...29                                                                                                                                                                                                                   KEGG_PATHWAYS_IN_CANCER
+KEGG_TGF_BETA_SIGNALING_PATHWAY...30                                                                                                                                                                                                   KEGG_TGF_BETA_SIGNALING_PATHWAY
+                                                                                                                                          p.adjust
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION...1                                                                                        4.154465e-10
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION...2                                                                                        5.652519e-08
+REACTOME_COLLAGEN_FORMATION...3                                                                                                       5.858358e-08
+REACTOME_COLLAGEN_BIOSYNTHESIS_AND_MODIFYING_ENZYMES...4                                                                              3.026582e-07
+KEGG_PARKINSONS_DISEASE...5                                                                                                           6.853990e-07
+KEGG_HUNTINGTONS_DISEASE...6                                                                                                          8.977582e-07
+KEGG_OXIDATIVE_PHOSPHORYLATION...7                                                                                                    1.517900e-06
+REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES...8                                                             4.661200e-06
+REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX...9                                                                                  9.498467e-06
+KEGG_ECM_RECEPTOR_INTERACTION...10                                                                                                    3.425119e-05
+KEGG_FOCAL_ADHESION...11                                                                                                              3.425119e-05
+HALLMARK_OXIDATIVE_PHOSPHORYLATION...12                                                                                               4.822220e-05
+REACTOME_RESPIRATORY_ELECTRON_TRANSPORT...13                                                                                          2.130641e-04
+REACTOME_COLLAGEN_CHAIN_TRIMERIZATION...14                                                                                            2.617571e-04
+REACTOME_ECM_PROTEOGLYCANS...15                                                                                                       2.617571e-04
+REACTOME_COLLAGEN_DEGRADATION...16                                                                                                    2.617571e-04
+KEGG_ALZHEIMERS_DISEASE...17                                                                                                          7.405219e-04
+REACTOME_AEROBIC_RESPIRATION_AND_RESPIRATORY_ELECTRON_TRANSPORT...18                                                                  7.578778e-04
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES_OF_THE_EXOCRINE_PANCREAS...19                                                                    9.962053e-04
+REACTOME_DEVELOPMENTAL_LINEAGE_OF_PANCREATIC_DUCTAL_CELLS...20                                                                        9.962053e-04
+REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS...21                                                                                  2.123785e-03
+REACTOME_MET_ACTIVATES_PTK2_SIGNALING...22                                                                                            2.135842e-03
+REACTOME_MET_PROMOTES_CELL_MOTILITY...23                                                                                              2.135842e-03
+REACTOME_SIGNALING_BY_PDGF...24                                                                                                       2.135842e-03
+REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS...25 2.213167e-03
+REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS...26                                                                                      2.713607e-03
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES...27                                                                                             2.995267e-03
+REACTOME_POST_TRANSLATIONAL_PROTEIN_MODIFICATION...28                                                                                 5.353299e-03
+KEGG_PATHWAYS_IN_CANCER...29                                                                                                          8.863552e-03
+KEGG_TGF_BETA_SIGNALING_PATHWAY...30                                                                                                  8.863552e-03
+                                                                                                                                      Count
+REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION...1                                                                                           64
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION...2                                                                                           72
+REACTOME_COLLAGEN_FORMATION...3                                                                                                          32
+REACTOME_COLLAGEN_BIOSYNTHESIS_AND_MODIFYING_ENZYMES...4                                                                                 28
+KEGG_PARKINSONS_DISEASE...5                                                                                                              19
+KEGG_HUNTINGTONS_DISEASE...6                                                                                                             23
+KEGG_OXIDATIVE_PHOSPHORYLATION...7                                                                                                       17
+REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES...8                                                                21
+REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX...9                                                                                     28
+KEGG_ECM_RECEPTOR_INTERACTION...10                                                                                                       22
+KEGG_FOCAL_ADHESION...11                                                                                                                 30
+HALLMARK_OXIDATIVE_PHOSPHORYLATION...12                                                                                                  22
+REACTOME_RESPIRATORY_ELECTRON_TRANSPORT...13                                                                                             20
+REACTOME_COLLAGEN_CHAIN_TRIMERIZATION...14                                                                                               16
+REACTOME_ECM_PROTEOGLYCANS...15                                                                                                          22
+REACTOME_COLLAGEN_DEGRADATION...16                                                                                                       19
+KEGG_ALZHEIMERS_DISEASE...17                                                                                                             19
+REACTOME_AEROBIC_RESPIRATION_AND_RESPIRATORY_ELECTRON_TRANSPORT...18                                                                     22
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES_OF_THE_EXOCRINE_PANCREAS...19                                                                       14
+REACTOME_DEVELOPMENTAL_LINEAGE_OF_PANCREATIC_DUCTAL_CELLS...20                                                                           14
+REACTOME_NON_INTEGRIN_MEMBRANE_ECM_INTERACTIONS...21                                                                                     16
+REACTOME_MET_ACTIVATES_PTK2_SIGNALING...22                                                                                               11
+REACTOME_MET_PROMOTES_CELL_MOTILITY...23                                                                                                 11
+REACTOME_SIGNALING_BY_PDGF...24                                                                                                          11
+REACTOME_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_IGF_TRANSPORT_AND_UPTAKE_BY_INSULIN_LIKE_GROWTH_FACTOR_BINDING_PROTEINS_IGFBPS...25    25
+REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS...26                                                                                         19
+REACTOME_DEVELOPMENTAL_CELL_LINEAGES...27                                                                                                15
+REACTOME_POST_TRANSLATIONAL_PROTEIN_MODIFICATION...28                                                                                   138
+KEGG_PATHWAYS_IN_CANCER...29                                                                                                              5
+KEGG_TGF_BETA_SIGNALING_PATHWAY...30                                                                                                      4
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] msigdbr_26.1.0         org.Hs.eg.db_3.22.0    AnnotationDbi_1.72.0  
+ [4] IRanges_2.44.0         S4Vectors_0.48.0       Biobase_2.70.0        
+ [7] BiocGenerics_0.56.0    generics_0.1.4         clusterProfiler_4.18.4
+[10] dplyr_1.2.0           
+
+loaded via a namespace (and not attached):
+  [1] DBI_1.3.0               gson_0.1.0              rlang_1.1.7            
+  [4] magrittr_2.0.4          DOSE_4.4.0              otel_0.2.0             
+  [7] compiler_4.5.2          RSQLite_3.53.1          png_0.1-9              
+ [10] systemfonts_1.3.2       vctrs_0.7.1             reshape2_1.4.5         
+ [13] stringr_1.6.0           pkgconfig_2.0.3         crayon_1.5.3           
+ [16] fastmap_1.2.0           XVector_0.50.0          enrichplot_1.30.5      
+ [19] purrr_1.2.2             bit_4.6.0               cachem_1.1.0           
+ [22] aplot_0.2.9             jsonlite_2.0.0          blob_1.3.0             
+ [25] tidydr_0.0.6            BiocParallel_1.44.0     tweenr_2.0.3           
+ [28] parallel_4.5.2          cluster_2.1.8.1         R6_2.6.1               
+ [31] stringi_1.8.7           RColorBrewer_1.1-3      GOSemSim_2.36.0        
+ [34] assertthat_0.2.1        Rcpp_1.1.1              Seqinfo_1.0.0          
+ [37] ggtangle_0.1.2          R.utils_2.13.0          Matrix_1.7-4           
+ [40] splines_4.5.2           igraph_2.2.2            tidyselect_1.2.1       
+ [43] qvalue_2.42.0           codetools_0.2-20        curl_7.1.0             
+ [46] lattice_0.22-7          tibble_3.3.1            plyr_1.8.9             
+ [49] treeio_1.34.0           withr_3.0.2             KEGGREST_1.50.0        
+ [52] S7_0.2.1                gridGraphics_0.5-1      scatterpie_0.2.6       
+ [55] polyclip_1.10-7         Biostrings_2.78.0       pillar_1.11.1          
+ [58] ggtree_4.0.5            ggfun_0.2.0             ggplot2_4.0.3          
+ [61] scales_1.4.0            tidytree_0.4.7          glue_1.8.0             
+ [64] gdtools_0.5.1           lazyeval_0.2.3          tools_4.5.2            
+ [67] ggnewscale_0.5.2        data.table_1.18.4       fgsea_1.36.2           
+ [70] babelgene_22.9          ggiraph_0.9.6           fs_2.1.0               
+ [73] fastmatch_1.1-8         cowplot_1.2.0           grid_4.5.2             
+ [76] tidyr_1.3.2             ape_5.8-1               nlme_3.1-169           
+ [79] patchwork_1.3.2         ggforce_0.5.0           cli_3.6.5              
+ [82] rappdirs_0.3.4          fontBitstreamVera_0.1.1 gtable_0.3.6           
+ [85] R.methodsS3_1.8.2       yulab.utils_0.2.4       digest_0.6.39          
+ [88] fontquiver_0.2.1        ggrepel_0.9.8           ggplotify_0.1.3        
+ [91] htmlwidgets_1.6.4       farver_2.1.2            memoise_2.0.1          
+ [94] htmltools_0.5.9         R.oo_1.27.1             lifecycle_1.0.5        
+ [97] httr_1.4.8              GO.db_3.22.0            fontLiberation_0.1.0   
+[100] bit64_4.8.2             MASS_7.3-65            

@@ -1,0 +1,11 @@
+"module","reference_gene_n","validation_detected_gene_n","retention_fraction","program_alignment"
+"black",108,104,0.962962962962963,NA
+"blue",779,734,0.942233632862644,NA
+"brown",400,377,0.9425,"clean_D1-aligned"
+"green",188,185,0.984042553191489,NA
+"grey",124,117,0.943548387096774,NA
+"magenta",42,41,0.976190476190476,NA
+"pink",54,52,0.962962962962963,NA
+"red",144,142,0.986111111111111,NA
+"turquoise",939,857,0.912673056443025,"clean_D2-aligned"
+"yellow",222,208,0.936936936936937,NA

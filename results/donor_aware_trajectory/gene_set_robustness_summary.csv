@@ -1,0 +1,37 @@
+"analysis","gene_set","total_n","evaluable_n","supported_n","supported_fraction_total","supported_fraction_evaluable"
+"Per-donor majority direction among genes evaluable in >=3 donors","dynamic_D1",45,32,27,0.6,0.84375
+"Per-donor majority direction among genes evaluable in >=3 donors","dynamic_D2",1073,936,775,0.722273998136067,0.827991452991453
+"Per-donor majority direction among genes evaluable in >=3 donors","clean_D1",42,31,27,0.642857142857143,0.870967741935484
+"Per-donor majority direction among genes evaluable in >=3 donors","clean_D2",975,841,765,0.784615384615385,0.909631391200951
+"Per-donor >=2/3 direction among genes evaluable in >=3 donors","dynamic_D1",45,32,19,0.422222222222222,0.59375
+"Per-donor >=2/3 direction among genes evaluable in >=3 donors","dynamic_D2",1073,936,704,0.656104380242311,0.752136752136752
+"Per-donor >=2/3 direction among genes evaluable in >=3 donors","clean_D1",42,31,19,0.452380952380952,0.612903225806452
+"Per-donor >=2/3 direction among genes evaluable in >=3 donors","clean_D2",975,841,695,0.712820512820513,0.826397146254459
+"Fixed-trajectory LODO retained in >=5/6","dynamic_D1",45,45,37,0.822222222222222,0.822222222222222
+"Fixed-trajectory LODO retained in >=5/6","dynamic_D2",1073,1073,659,0.614165890027959,0.614165890027959
+"Fixed-trajectory LODO retained in >=5/6","clean_D1",42,42,35,0.833333333333333,0.833333333333333
+"Fixed-trajectory LODO retained in >=5/6","clean_D2",975,975,654,0.670769230769231,0.670769230769231
+"Equal-donor downsampling: 6 donors x 11 cells; expected direction in >=80/100 repeats","dynamic_D1",45,45,45,1,1
+"Equal-donor downsampling: 6 donors x 11 cells; expected direction in >=80/100 repeats","dynamic_D2",1073,1073,970,0.904007455731594,0.904007455731594
+"Equal-donor downsampling: 6 donors x 11 cells; expected direction in >=80/100 repeats","clean_D1",42,42,42,1,1
+"Equal-donor downsampling: 6 donors x 11 cells; expected direction in >=80/100 repeats","clean_D2",975,975,955,0.979487179487179,0.979487179487179
+"Equal-donor downsampling: 5 donors x 43 cells; expected direction in >=80/100 repeats","dynamic_D1",45,45,45,1,1
+"Equal-donor downsampling: 5 donors x 43 cells; expected direction in >=80/100 repeats","dynamic_D2",1073,1073,992,0.924510717614166,0.924510717614166
+"Equal-donor downsampling: 5 donors x 43 cells; expected direction in >=80/100 repeats","clean_D1",42,42,42,1,1
+"Equal-donor downsampling: 5 donors x 43 cells; expected direction in >=80/100 repeats","clean_D2",975,975,975,1,1
+"GAM: donor_fixed, FDR<0.05 and expected endpoint direction","dynamic_D1",45,45,42,0.933333333333333,0.933333333333333
+"GAM: donor_fixed, FDR<0.05 and expected endpoint direction","dynamic_D2",1073,1073,568,0.529356943150047,0.529356943150047
+"GAM: donor_fixed, FDR<0.05 and expected endpoint direction","clean_D1",42,42,39,0.928571428571429,0.928571428571429
+"GAM: donor_fixed, FDR<0.05 and expected endpoint direction","clean_D2",975,975,565,0.57948717948718,0.57948717948718
+"GAM: donor_random, FDR<0.05 and expected endpoint direction","dynamic_D1",45,45,42,0.933333333333333,0.933333333333333
+"GAM: donor_random, FDR<0.05 and expected endpoint direction","dynamic_D2",1073,1073,669,0.623485554520037,0.623485554520037
+"GAM: donor_random, FDR<0.05 and expected endpoint direction","clean_D1",42,42,39,0.928571428571429,0.928571428571429
+"GAM: donor_random, FDR<0.05 and expected endpoint direction","clean_D2",975,975,665,0.682051282051282,0.682051282051282
+"GAM: donor_equal_weight, FDR<0.05 and expected endpoint direction","dynamic_D1",45,45,44,0.977777777777778,0.977777777777778
+"GAM: donor_equal_weight, FDR<0.05 and expected endpoint direction","dynamic_D2",1073,1073,597,0.556383970177074,0.556383970177074
+"GAM: donor_equal_weight, FDR<0.05 and expected endpoint direction","clean_D1",42,42,41,0.976190476190476,0.976190476190476
+"GAM: donor_equal_weight, FDR<0.05 and expected endpoint direction","clean_D2",975,975,590,0.605128205128205,0.605128205128205
+"tradeSeq with donor covariates, association FDR<0.05","dynamic_D1",45,45,45,1,1
+"tradeSeq with donor covariates, association FDR<0.05","dynamic_D2",1073,1073,792,0.7381174277726,0.7381174277726
+"tradeSeq with donor covariates, association FDR<0.05","clean_D1",42,42,42,1,1
+"tradeSeq with donor covariates, association FDR<0.05","clean_D2",975,975,701,0.718974358974359,0.718974358974359

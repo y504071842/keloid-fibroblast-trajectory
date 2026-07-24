@@ -1,0 +1,8 @@
+"resolution","cluster_column","n_clusters","min_cluster_n","median_cluster_n","mean_silhouette"
+0.02,"standard_res_0_02",3,348,829,0.073143570313937
+0.05,"standard_res_0_05",5,149,455,0.0705111074214911
+0.08,"standard_res_0_08",6,149,644.5,0.0844665321940327
+0.1,"standard_res_0_10",7,149,835,0.14334335261766
+0.15,"standard_res_0_15",9,149,834,0.152028035103202
+0.2,"standard_res_0_20",9,149,836,0.153007061935149
+0.3,"standard_res_0_30",11,149,917,0.127817069370606

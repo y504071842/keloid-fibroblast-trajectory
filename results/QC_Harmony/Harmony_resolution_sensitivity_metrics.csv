@@ -1,0 +1,9 @@
+"method","resolution","n_clusters","ARI_program"
+"PCA_no_Harmony",0.1,2,0.153534947848875
+"Harmony_sample",0.1,2,0.120135739173158
+"PCA_no_Harmony",0.2,3,0.296610535581984
+"Harmony_sample",0.2,3,0.24501123644403
+"PCA_no_Harmony",0.3,4,0.390608428170729
+"Harmony_sample",0.3,4,0.350666122489422
+"PCA_no_Harmony",0.4,5,0.400906347934015
+"Harmony_sample",0.4,4,0.350666122489422

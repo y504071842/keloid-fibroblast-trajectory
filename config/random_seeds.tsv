@@ -1,0 +1,11 @@
+analysis	seed
+Primary bulk bootstrap and label permutation	20260711
+Discovery trajectory and clean-program analyses	20260711
+Donor-aware trajectory analyses	20260716
+tradeSeq knot sensitivity and WGCNA analyses	20260717
+GSE191067 reclustering	20260712
+Figure jitter: donor pseudotime	11
+Figure jitter: external donor-state scores	42
+Figure jitter: bulk group plots	21
+Figure jitter: leave-one-recurrence-out plots	22
+

@@ -1,0 +1,19 @@
+sample,condition,standard_program,n_cells,proportion
+HK1,Keloid,ECM-producing fibroblasts,2565,0.9805045871559632
+HK1,Keloid,Homeostatic/regulatory fibroblasts,40,0.0152905198776758
+HK1,Keloid,Matrix-remodeling fibroblasts,11,0.0042048929663608
+HK2,Keloid,ECM-producing fibroblasts,1392,0.9482288828337876
+HK2,Keloid,Homeostatic/regulatory fibroblasts,64,0.0435967302452316
+HK2,Keloid,Matrix-remodeling fibroblasts,12,0.0081743869209809
+HK3,Keloid,ECM-producing fibroblasts,280,0.6829268292682927
+HK3,Keloid,Homeostatic/regulatory fibroblasts,121,0.2951219512195122
+HK3,Keloid,Matrix-remodeling fibroblasts,9,0.0219512195121951
+HNS1,Normal,ECM-producing fibroblasts,746,0.4828478964401294
+HNS1,Normal,Homeostatic/regulatory fibroblasts,717,0.4640776699029126
+HNS1,Normal,Matrix-remodeling fibroblasts,82,0.0530744336569579
+HNS2,Normal,ECM-producing fibroblasts,75,0.0792811839323467
+HNS2,Normal,Homeostatic/regulatory fibroblasts,843,0.8911205073995772
+HNS2,Normal,Matrix-remodeling fibroblasts,28,0.0295983086680761
+HNS3,Normal,ECM-producing fibroblasts,21,0.0459518599562363
+HNS3,Normal,Homeostatic/regulatory fibroblasts,429,0.9387308533916848
+HNS3,Normal,Matrix-remodeling fibroblasts,7,0.0153172866520787

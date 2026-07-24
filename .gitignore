@@ -1,0 +1,15 @@
+data/frozen_inputs/
+data/raw/
+data/processed/
+*.rds
+*.RData
+*.sra
+*.fastq
+*.fastq.gz
+salmon_quant/
+.Rhistory
+.Rproj.user/
+renv/library/
+results/generated/
+manuscript_tracked_changes/
+reference/final_outputs/

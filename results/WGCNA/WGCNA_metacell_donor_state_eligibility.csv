@@ -1,0 +1,19 @@
+sample,state,input_cell_n,candidate_bin_n,retained_metacell_n,retained_cell_n,eligibility_reason
+K183156,ECM-producing fibroblasts,301,13,12,300,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K183261,ECM-producing fibroblasts,18,1,1,18,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K712771,ECM-producing fibroblasts,30,2,1,25,at least one within-donor state-specific pseudotime bin contained >=8 cells
+N176712,ECM-producing fibroblasts,1,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells
+N177536,ECM-producing fibroblasts,5,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells
+N387690,ECM-producing fibroblasts,27,2,1,25,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K183156,Homeostatic/regulatory fibroblasts,105,5,4,100,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K183261,Homeostatic/regulatory fibroblasts,24,1,1,24,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K712771,Homeostatic/regulatory fibroblasts,20,1,1,20,at least one within-donor state-specific pseudotime bin contained >=8 cells
+N176712,Homeostatic/regulatory fibroblasts,6,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells
+N177536,Homeostatic/regulatory fibroblasts,32,2,1,25,at least one within-donor state-specific pseudotime bin contained >=8 cells
+N387690,Homeostatic/regulatory fibroblasts,272,11,11,272,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K183156,Matrix-remodeling fibroblasts,163,7,7,163,at least one within-donor state-specific pseudotime bin contained >=8 cells
+K183261,Matrix-remodeling fibroblasts,7,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells
+K712771,Matrix-remodeling fibroblasts,43,2,2,43,at least one within-donor state-specific pseudotime bin contained >=8 cells
+N176712,Matrix-remodeling fibroblasts,4,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells
+N177536,Matrix-remodeling fibroblasts,6,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells
+N387690,Matrix-remodeling fibroblasts,6,1,0,0,all within-donor state-specific pseudotime bins contained <8 cells

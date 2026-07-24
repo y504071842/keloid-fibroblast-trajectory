@@ -1,0 +1,5 @@
+"test","input_genes","estimable_genes","fdr_lt_0_05","reported_fraction"
+"association",1118,908,690,0.759911894273128
+"pattern",1118,1118,675,0.603756708407871
+"terminal",1118,1118,746,0.667262969588551
+"early",1118,231,0,0

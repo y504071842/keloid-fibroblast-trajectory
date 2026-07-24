@@ -1,0 +1,7 @@
+analysis,program,n_keloid_donors,n_normal_donors,median_keloid,median_normal,cliffs_delta,exact_mann_whitney_p
+all_cells,ECM-producing fibroblasts,3,3,0.5211531261699738,0.0219170075978959,1.0,0.1
+all_cells,Homeostatic/regulatory fibroblasts,3,3,0.0943466866342194,0.6107539450613676,-1.0,0.1
+all_cells,Matrix-remodeling fibroblasts,3,3,0.3612068965517241,0.3673290473407364,-0.3333333333333333,0.7
+confident_clusters_only,ECM-producing fibroblasts,3,3,0.9482288828337876,0.0792811839323467,1.0,0.1
+confident_clusters_only,Homeostatic/regulatory fibroblasts,3,3,0.0435967302452316,0.8911205073995772,-1.0,0.1
+confident_clusters_only,Matrix-remodeling fibroblasts,3,3,0.0081743869209809,0.0295983086680761,-0.7777777777777778,0.2

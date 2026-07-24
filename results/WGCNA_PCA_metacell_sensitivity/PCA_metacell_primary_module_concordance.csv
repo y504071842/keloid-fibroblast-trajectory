@@ -1,0 +1,3 @@
+"program","primary_module","pca_metacell_aligned_module","pca_metacell_aligned_rho","aligned_module_overlap_n","aligned_module_jaccard","pca_metacell_best_overlap_module","best_overlap_module_rho","best_overlap_n","best_overlap_jaccard","same_module_by_trait_and_overlap"
+"clean_D1","brown","green",0.950196148383032,252,0.587412587412587,"green",0.950196148383032,252,0.587412587412587,TRUE
+"clean_D2","turquoise","yellow",0.905735502782384,84,0.0737489025460931,"blue",0.843126916859588,566,0.595162986330179,FALSE

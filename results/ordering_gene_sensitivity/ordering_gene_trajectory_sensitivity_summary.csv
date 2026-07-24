@@ -1,0 +1,6 @@
+"ordering_set","ordering_gene_n","root_vertex_internal","graph_endpoints","graph_branch_vertices","spearman_with_current_graph_pseudotime","dynamic_gene_direction_concordance","D1_direction_concordance","D2_direction_concordance"
+"program_DE_top500",500,"Y_94",3,1,0.809126892497467,1,1,1
+"program_DE_top1000",1000,"Y_70",4,2,0.834568255145357,1,1,1
+"program_DE_all1586",1586,"Y_114",3,1,1,1,1,1
+"variance_top1000",1000,"Y_67",4,2,0.858459368815237,1,1,1
+"variance_top2000",2000,"Y_32",5,3,0.653069079847741,0.993738819320215,1,0.993476234855545

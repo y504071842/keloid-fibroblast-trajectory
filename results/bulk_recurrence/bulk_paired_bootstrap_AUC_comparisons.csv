@@ -1,0 +1,3 @@
+"comparison","score_a","score_b","observed_auc_difference","bootstrap_ci_low","bootstrap_ci_high","paired_bootstrap_two_sided_p"
+"clean_D1loss_vs_fivehub","clean_D1_loss","five_hub",0.13265306122449,-0.214285714285714,0.485714285714286,0.49
+"clean_D1loss_vs_clean_D2","clean_D1_loss","clean_D2",0.310204081632653,-0.0673469387755102,0.655102040816327,0.1128

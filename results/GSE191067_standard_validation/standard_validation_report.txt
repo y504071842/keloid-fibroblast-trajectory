@@ -1,0 +1,131 @@
+Sample identifier note
+The external evaluation includes three keloid and three normal-skin samples.
+
+Chosen resolution
+  resolution    cluster_column n_clusters min_cluster_n median_cluster_n
+1        0.2 standard_res_0_20          9           149              836
+  mean_silhouette
+1       0.1530071
+
+Cluster mapping
+# A tibble: 9 x 4
+  standard_cluster standard_program       top_mean_marker_score margin_to_second
+  <chr>            <chr>                                  <dbl>            <dbl>
+1 0                Matrix-remodeling fib~                0.0727          0.00147
+2 1                ECM-producing fibrobl~                0.869           0.974  
+3 2                Homeostatic/regulator~                0.141           0.00333
+4 3                Homeostatic/regulator~                0.462           0.662  
+5 4                Homeostatic/regulator~                0.0370          0.226  
+6 5                ECM-producing fibrobl~                0.206           0.0666 
+7 6                Homeostatic/regulator~               -0.0608          0.0915 
+8 7                ECM-producing fibrobl~                0.414           0.445  
+9 8                Matrix-remodeling fib~                0.328           0.205  
+
+Program counts
+
+Homeostatic/regulatory fibroblasts      Matrix-remodeling fibroblasts 
+                              5445                               6496 
+         ECM-producing fibroblasts 
+                              5079 
+
+Clean coverage
+   program defined_n detected_n  coverage
+1 clean_D1        42         42 1.0000000
+2 clean_D2       975        917 0.9405128
+
+State cell summaries
+# A tibble: 3 x 4
+  standard_program                   n_cells median_D1 median_D2
+  <fct>                                <int>     <dbl>     <dbl>
+1 Homeostatic/regulatory fibroblasts    5445    0.0744    -0.120
+2 Matrix-remodeling fibroblasts         6496   -0.0719    -0.147
+3 ECM-producing fibroblasts             5079   -0.109      0.259
+
+State direction
+# A tibble: 1 x 4
+  D1_spearman_rho D2_spearman_rho D1_homeostatic_to_ECM~1 D2_homeostatic_to_EC~2
+            <dbl>           <dbl>                   <dbl>                  <dbl>
+1              -1             0.5                  -0.183                  0.378
+# i abbreviated names: 1: D1_homeostatic_to_ECM_change,
+#   2: D2_homeostatic_to_ECM_change
+
+Program fractions by donor
+# A tibble: 18 x 5
+   sample condition standard_program                   n_cells fraction
+   <chr>  <chr>     <fct>                                <int>    <dbl>
+ 1 HK1    Keloid    Homeostatic/regulatory fibroblasts     399   0.0860
+ 2 HK1    Keloid    Matrix-remodeling fibroblasts         1676   0.361 
+ 3 HK1    Keloid    ECM-producing fibroblasts             2565   0.553 
+ 4 HK2    Keloid    Homeostatic/regulatory fibroblasts     252   0.0943
+ 5 HK2    Keloid    Matrix-remodeling fibroblasts         1027   0.385 
+ 6 HK2    Keloid    ECM-producing fibroblasts             1392   0.521 
+ 7 HK3    Keloid    Homeostatic/regulatory fibroblasts     211   0.309 
+ 8 HK3    Keloid    Matrix-remodeling fibroblasts          192   0.281 
+ 9 HK3    Keloid    ECM-producing fibroblasts              280   0.410 
+10 HNS1   Normal    Homeostatic/regulatory fibroblasts    1289   0.337 
+11 HNS1   Normal    Matrix-remodeling fibroblasts         1791   0.468 
+12 HNS1   Normal    ECM-producing fibroblasts              746   0.195 
+13 HNS2   Normal    Homeostatic/regulatory fibroblasts    2090   0.611 
+14 HNS2   Normal    Matrix-remodeling fibroblasts         1257   0.367 
+15 HNS2   Normal    ECM-producing fibroblasts               75   0.0219
+16 HNS3   Normal    Homeostatic/regulatory fibroblasts    1204   0.677 
+17 HNS3   Normal    Matrix-remodeling fibroblasts          553   0.311 
+18 HNS3   Normal    ECM-producing fibroblasts               21   0.0118
+
+Session info
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] future_1.70.0      cluster_2.1.8.1    ggplot2_4.0.3      tidyr_1.3.2       
+ [5] dplyr_1.2.0        Matrix_1.7-4       harmony_2.0.4      Rcpp_1.1.1        
+ [9] Seurat_5.5.0       SeuratObject_5.4.0 sp_2.2-1          
+
+loaded via a namespace (and not attached):
+ [1] deldir_2.0-4           pbapply_1.7-4          gridExtra_2.3         
+ [4] rlang_1.1.7            magrittr_2.0.4         RcppAnnoy_0.0.23      
+ [7] otel_0.2.0             matrixStats_1.5.0      ggridges_0.5.7        
+[10] compiler_4.5.2         spatstat.geom_3.8-1    png_0.1-9             
+[13] vctrs_0.7.1            reshape2_1.4.5         stringr_1.6.0         
+[16] pkgconfig_2.0.3        fastmap_1.2.0          utf8_1.2.6            
+[19] promises_1.5.0         purrr_1.2.2            jsonlite_2.0.0        
+[22] goftest_1.2-3          later_1.4.8            spatstat.utils_3.2-3  
+[25] irlba_2.3.7            parallel_4.5.2         R6_2.6.1              
+[28] ica_1.0-3              stringi_1.8.7          RColorBrewer_1.1-3    
+[31] spatstat.data_3.1-9    reticulate_1.46.0      parallelly_1.47.0     
+[34] spatstat.univar_3.2-0  lmtest_0.9-40          scattermore_1.2       
+[37] tensor_1.5.1           future.apply_1.20.2    zoo_1.8-15            
+[40] sctransform_0.4.3      httpuv_1.6.17          splines_4.5.2         
+[43] igraph_2.2.2           tidyselect_1.2.1       abind_1.4-8           
+[46] codetools_0.2-20       spatstat.random_3.5-0  miniUI_0.1.2          
+[49] spatstat.explore_3.8-1 listenv_0.10.1         lattice_0.22-7        
+[52] tibble_3.3.1           plyr_1.8.9             withr_3.0.2           
+[55] shiny_1.13.0           S7_0.2.1               ROCR_1.0-12           
+[58] Rtsne_0.17             fastDummies_1.7.6      survival_3.8-6        
+[61] polyclip_1.10-7        fitdistrplus_1.2-6     pillar_1.11.1         
+[64] KernSmooth_2.23-26     plotly_4.12.0          generics_0.1.4        
+[67] RcppHNSW_0.7.0         scales_1.4.0           globals_0.19.1        
+[70] xtable_1.8-8           RhpcBLASctl_0.23-42    glue_1.8.0            
+[73] lazyeval_0.2.3         tools_4.5.2            data.table_1.18.4     
+[76] RSpectra_0.16-2        RANN_2.6.2             dotCall64_1.2         
+[79] cowplot_1.2.0          grid_4.5.2             nlme_3.1-169          
+[82] patchwork_1.3.2        cli_3.6.5              spatstat.sparse_3.2-0 
+[85] spam_2.11-4            viridisLite_0.4.3      uwot_0.2.4            
+[88] gtable_0.3.6           digest_0.6.39          progressr_0.19.0      
+[91] ggrepel_0.9.8          htmlwidgets_1.6.4      farver_2.1.2          
+[94] htmltools_0.5.9        lifecycle_1.0.5        httr_1.4.8            
+[97] mime_0.13              MASS_7.3-65           

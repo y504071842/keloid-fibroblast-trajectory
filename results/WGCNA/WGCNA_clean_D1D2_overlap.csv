@@ -1,0 +1,3 @@
+"program","module","overlap_n","set_n_in_network","set_total_n","module_n","network_gene_n","odds_ratio_exploratory","p_value_exploratory","inference_role","fdr_exploratory"
+"clean_D1","brown",41,42,42,400,3000,294.546496293586,7.73151847364748e-36,"descriptive post-selection overlap",7.73151847364748e-36
+"clean_D2","turquoise",488,780,975,939,3000,6.55013156542526,3.8459685621465e-101,"descriptive post-selection overlap",7.69193712429301e-101

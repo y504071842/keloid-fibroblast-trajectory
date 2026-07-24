@@ -1,0 +1,13 @@
+"version","metric","keloid_minus_normal","exact_permutation_p"
+"all_current_cells","median_pseudotime",11.4894567735033,0.1
+"all_current_cells","median_D1",-0.297538116629799,0.1
+"all_current_cells","median_D2",0.135832691837929,0.1
+"all_current_cells","homeostatic_fraction",-0.430686639398742,0.1
+"all_current_cells","matrix_fraction",0.122948947523046,0.4
+"all_current_cells","ecm_fraction",0.307737691875696,0.1
+"exclude_scDblFinder_predicted","median_pseudotime",11.5709074002094,0.1
+"exclude_scDblFinder_predicted","median_D1",-0.296580700603468,0.1
+"exclude_scDblFinder_predicted","median_D2",0.135465908441328,0.1
+"exclude_scDblFinder_predicted","homeostatic_fraction",-0.441340407876552,0.1
+"exclude_scDblFinder_predicted","matrix_fraction",0.133536403805803,0.4
+"exclude_scDblFinder_predicted","ecm_fraction",0.30780400407075,0.1

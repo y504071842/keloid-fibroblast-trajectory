@@ -1,0 +1,5 @@
+"version","dynamic_module","gene_n","direction_concordance","median_rho"
+"all_current_cells","D1_early_decreasing",45,1,-0.299195418397044
+"all_current_cells","D2_late_increasing",1073,1,0.275030266770622
+"exclude_scDblFinder_predicted","D1_early_decreasing",45,1,-0.303779992109427
+"exclude_scDblFinder_predicted","D2_late_increasing",1073,1,0.275029926483289

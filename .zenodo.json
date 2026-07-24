@@ -1,0 +1,29 @@
+{
+  "title": "Keloid fibroblast trajectory reproducibility package",
+  "description": "Analysis code, frozen gene definitions, parameter records, supplementary data, and machine-readable outputs accompanying the manuscript A single-cell trajectory framework of fibroblast state remodeling in keloids and its association with postoperative recurrence.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Yuan, Yutong", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
+    {"name": "Liu, Yuanbo", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
+    {"name": "Wei, Tianxiao", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
+    {"name": "Zhu, Shan", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
+    {"name": "Si, Nuo", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"}
+  ],
+  "keywords": [
+    "keloid",
+    "single-cell RNA sequencing",
+    "fibroblast",
+    "pseudotime",
+    "recurrence",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/y504071842/keloid-fibroblast-trajectory",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "version": "1.0.0"
+}

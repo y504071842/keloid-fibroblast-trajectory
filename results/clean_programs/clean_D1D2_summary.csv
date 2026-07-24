@@ -1,0 +1,8 @@
+"dynamic_module","observed_direction","exclusion_reason","clean_module","gene_n"
+"D1_early_decreasing","decreasing","histone_or_keratin_nonspecific",NA,2
+"D1_early_decreasing","decreasing","mitochondrial_ribosomal_or_hemoglobin",NA,1
+"D1_early_decreasing","decreasing","retained","clean_D1",42
+"D2_late_increasing","decreasing","direction_discordant_with_kmeans_program",NA,81
+"D2_late_increasing","increasing","histone_or_keratin_nonspecific",NA,2
+"D2_late_increasing","increasing","mitochondrial_ribosomal_or_hemoglobin",NA,15
+"D2_late_increasing","increasing","retained","clean_D2",975

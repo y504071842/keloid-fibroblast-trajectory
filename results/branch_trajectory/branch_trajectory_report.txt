@@ -1,0 +1,89 @@
+Forced Slingshot lineages:
+$Lineage1
+[1] "Homeostatic/regulatory fibroblasts" "ECM-producing fibroblasts"         
+
+$Lineage2
+[1] "Homeostatic/regulatory fibroblasts" "Matrix-remodeling fibroblasts"     
+
+Unsupervised Slingshot lineages:
+$Lineage1
+[1] "Homeostatic/regulatory fibroblasts" "Matrix-remodeling fibroblasts"     
+[3] "ECM-producing fibroblasts"         
+
+Graph lineage pattern counts:
+                                
+                                 D1_early_decreasing D2_late_increasing
+  common_decreasing                               38                 53
+  common_increasing                                0                454
+  ecm_dominant_branch_biased                       2                 41
+  mixed_remodeling_branch_biased                   5                524
+  other                                            0                  1
+Lineage Spearman expression: log1p(raw_count / Monocle2 Size_Factor)
+tradeSeq donor design columns: (Intercept), donorK183261, donorK712771, donorN176712, donorN177536, donorN387690 
+tradeSeq global FDR < 0.05: 690 
+patternTest FDR < 0.05: 675 
+diffEndTest FDR < 0.05: 746 
+earlyDETest FDR < 0.05: 0 
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] splines   stats4    stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] dplyr_1.2.0                 slingshot_2.18.0           
+ [3] TrajectoryUtils_1.18.0      SingleCellExperiment_1.32.0
+ [5] SummarizedExperiment_1.40.0 GenomicRanges_1.62.1       
+ [7] Seqinfo_1.0.0               IRanges_2.44.0             
+ [9] S4Vectors_0.48.0            MatrixGenerics_1.22.0      
+[11] princurve_2.1.6             tradeSeq_1.24.0            
+[13] matrixStats_1.5.0           igraph_2.2.2               
+[15] monocle_2.99.0              DDRTree_0.1.6              
+[17] irlba_2.3.7                 VGAM_1.1-14                
+[19] ggplot2_4.0.3               Biobase_2.70.0             
+[21] BiocGenerics_0.56.0         generics_0.1.4             
+[23] Matrix_1.7-4               
+
+loaded via a namespace (and not attached):
+ [1] gtable_0.3.6              sparsesvd_0.2-3          
+ [3] qlcMatrix_0.9.9           ggrepel_0.9.8            
+ [5] lattice_0.22-7            vctrs_0.7.1              
+ [7] tools_4.5.2               parallel_4.5.2           
+ [9] tibble_3.3.1              cluster_2.1.8.1          
+[11] pkgconfig_2.0.3           pheatmap_1.0.13          
+[13] RColorBrewer_1.1-3        sparseMatrixStats_1.22.0 
+[15] S7_0.2.1                  lifecycle_1.0.5          
+[17] compiler_4.5.2            farver_2.1.2             
+[19] stringr_1.6.0             FNN_1.1.4.1              
+[21] statmod_1.5.2             combinat_0.0-8           
+[23] codetools_0.2-20          pillar_1.11.1            
+[25] BiocParallel_1.44.0       DelayedArray_0.36.0      
+[27] limma_3.66.0              viridis_0.6.5            
+[29] abind_1.4-8               nlme_3.1-169             
+[31] locfit_1.5-9.12           tidyselect_1.2.1         
+[33] Rtsne_0.17                stringi_1.8.7            
+[35] slam_0.1-55               reshape2_1.4.5           
+[37] grid_4.5.2                SparseArray_1.10.8       
+[39] cli_3.6.5                 magrittr_2.0.4           
+[41] S4Arrays_1.10.1           edgeR_4.8.2              
+[43] withr_3.0.2               DelayedMatrixStats_1.32.0
+[45] scales_1.4.0              XVector_0.50.0           
+[47] gridExtra_2.3             RANN_2.6.2               
+[49] pbapply_1.7-4             fastICA_1.2-7            
+[51] viridisLite_0.4.3         mgcv_1.9-4               
+[53] rlang_1.1.7               Rcpp_1.1.1               
+[55] docopt_0.7.2              glue_1.8.0               
+[57] HSMMSingleCell_99.0.0     densityClust_0.3.3       
+[59] R6_2.6.1                  plyr_1.8.9               
