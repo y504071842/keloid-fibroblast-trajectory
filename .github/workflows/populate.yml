@@ -1,0 +1,30 @@
+name: Populate reproducibility package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/populate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  populate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download archived release
+        run: |
+          curl -L "https://zenodo.org/records/21503331/files/keloid-fibroblast-trajectory-v1.0.0.zip?download=1" -o release.zip
+          unzip -q release.zip
+          rsync -a keloid-fibroblast-trajectory-1.0.0/ ./
+          rm -rf release.zip keloid-fibroblast-trajectory-1.0.0
+      - name: Commit package
+        run: |
+          git config user.name "Yutong Yuan"
+          git config user.email "y504071842@gmail.com"
+          git add -A
+          git commit -m "Release reproducibility package v1.0.0" || exit 0
+          git push
