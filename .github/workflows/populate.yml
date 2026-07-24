@@ -14,13 +14,15 @@ jobs:
   populate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Download archived release
         run: |
-          curl -L "https://zenodo.org/records/21531538/files/keloid-fibroblast-trajectory-v1.0.1.zip?download=1" -o release.zip
-          unzip -q release.zip
-          rsync -a --delete --exclude='.git/' --exclude='.github/' keloid-fibroblast-trajectory-1.0.1/ ./
-          rm -rf release.zip keloid-fibroblast-trajectory-1.0.1
+          curl -L "https://zenodo.org/records/21531538/files/keloid-fibroblast-trajectory-v1.0.1.zip?download=1" -o /tmp/release.zip
+          rm -rf /tmp/keloid-release
+          mkdir -p /tmp/keloid-release
+          unzip -q /tmp/release.zip -d /tmp/keloid-release
+          rsync -a --delete --exclude='.git/' --exclude='.github/' /tmp/keloid-release/keloid-fibroblast-trajectory-1.0.1/ ./
+          rm -rf /tmp/release.zip /tmp/keloid-release
       - name: Commit package
         run: |
           git config user.name "Yutong Yuan"
