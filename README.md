@@ -11,13 +11,13 @@ The repository supports four linked analyses:
 3. external single-cell state localization and module-preservation analysis in GSE191067;
 4. recurrence-associated bulk RNA-seq projection in PRJNA813172.
 
-Clean D1 and clean D2 are frozen at 42 and 975 genes, respectively. The public gene definitions are in `data/derived/clean_D1D2_frozen_genes.csv`. Final reference outputs are in `results/`, and the eight submission workbooks are in `reference/supplementary_data/`.
+Clean D1 and clean D2 are frozen at 42 and 975 genes, respectively. The public gene definitions are in `data/derived/clean_D1D2_frozen_genes.csv`. Final reference outputs are in `results/`; Supplementary Methods, the Supplementary Data S1-S8 workbooks, and their checksum index are in `reference/supplementary_data/`.
 
 ## Reproduction levels
 
 ### Numeric audit without restricted inputs
 
-Install Python 3.11 or later with `numpy` and `pandas`, then run:
+Install Python 3.11 or later with `numpy`, `pandas`, and `openpyxl`, then run:
 
 ```powershell
 python tests/independent_numeric_audit.py
@@ -44,7 +44,7 @@ The bulk pipeline can be reconstructed from PRJNA813172 with the scripts prefixe
 - `config/`: environment-variable contract and random seeds.
 - `data/`: frozen gene definitions, input manifests, and data-access notes.
 - `environment/`: R session information and software-version summary.
-- `reference/supplementary_data/`: final Supplementary Data S1-S8 workbooks.
+- `reference/supplementary_data/`: Supplementary Methods, final Supplementary Data S1-S8 workbooks, and their checksum index.
 - `results/`: final machine-readable outputs used by the manuscript and figures.
 - `tests/`: independent numeric and release-integrity audits.
 - `docs/`: script-to-method mapping and draft availability statements.
@@ -63,4 +63,4 @@ Analysis code is released under the MIT License. Public source datasets remain s
 
 ## Citation
 
-The accompanying authors are Yutong Yuan, Yuanbo Liu, Tianxiao Wei, Shan Zhu, and Nuo Si. Machine-readable citation metadata are provided in `CITATION.cff`. The public repository is available at <https://github.com/y504071842/keloid-fibroblast-trajectory>, and the versioned v1.0.0 archive is identified by <https://doi.org/10.5281/zenodo.21503331>.
+The accompanying authors are Yutong Yuan, Yuanbo Liu, Tianxiao Wei, Shan Zhu, and Nuo Si. Machine-readable citation metadata are provided in `CITATION.cff`. The public repository is available at <https://github.com/y504071842/keloid-fibroblast-trajectory>, and the latest archived release is available through the Zenodo concept DOI <https://doi.org/10.5281/zenodo.21503330>.

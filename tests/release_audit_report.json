@@ -7,15 +7,76 @@
       "clean_D2": 975
     },
     "dynamic_candidate_count": 1118,
+    "supplementary_index_status": {
+      "Supplementary_Methods.docx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 0,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S1_Cohorts_and_QC.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 5,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S2_Cell_Annotation.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 11,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S3_Fibroblast_Enrichment.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 4,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S4_Trajectory_Dynamics.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 21,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S5_Clean_D1_D2.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 8,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S6_Coexpression_Preservation.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 14,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S7_External_scRNA_Evaluation.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 5,
+        "worksheet_count_match": true
+      },
+      "Supplementary_Data_S8_Bulk_Recurrence.xlsx": {
+        "exists": true,
+        "sha256_match": true,
+        "worksheet_count": 7,
+        "worksheet_count_match": true
+      }
+    },
+    "clean_D2_cross_file_consistency": {
+      "donor_summary_match": true,
+      "donor_group_effect_match": true,
+      "donor_count": 6
+    },
     "source_hygiene": {
       "absolute_windows_path": [],
       "legacy_package_path": [],
       "legacy_story_terms": []
     },
     "input_checksum_status": {
-      "discovery_trajectory_programDE_cds.rds": "not supplied; manifest only",
-      "discovery_trajectory_graph_pseudotime_cds.rds": "not supplied; manifest only",
-      "discovery_fibroblast_subclustered.rds": "not supplied; manifest only",
+      "discovery_trajectory_programDE_cds.rds": "match",
+      "discovery_trajectory_graph_pseudotime_cds.rds": "match",
+      "discovery_fibroblast_subclustered.rds": "match",
       "GSE191067_standard_reclustered_scored.rds": "not supplied; manifest only",
       "Step04B_clean_gene_symbol_log2TPM_plus1_matrix.csv": "not supplied; manifest only",
       "Step04B_clean_metadata_matched_to_expression.csv": "not supplied; manifest only",

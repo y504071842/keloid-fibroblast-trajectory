@@ -14,7 +14,7 @@ authors:
   - family-names: "Si"
     given-names: "Nuo"
 repository-code: "https://github.com/y504071842/keloid-fibroblast-trajectory"
-doi: "10.5281/zenodo.21503331"
+doi: "10.5281/zenodo.21503330"
 license: MIT
-version: "1.0.0"
-date-released: "2026-07-23"
+version: "1.0.1"
+date-released: "2026-07-24"

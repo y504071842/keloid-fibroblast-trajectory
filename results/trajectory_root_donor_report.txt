@@ -1,20 +1,20 @@
-CDS: 06_Reanalysis_Audit/Input_Objects/discovery_trajectory_graph_pseudotime_cds.rds
-cells: 1070 genes: 26536 
-old root: Y_114 
-condition-blind endpoint candidates: Y_114, Y_56, Y_1 
-# A tibble: 3 x 10
+CDS input: discovery_trajectory_graph_pseudotime_cds.rds
+cells: 1070 genes: 26536
+old root: Y_114
+condition-blind endpoint candidates: Y_114, Y_56, Y_1
+# A tibble: 3 × 10
   closest_vertex n_cells homeostatic_fraction matrix_fraction ecm_fraction
   <chr>            <int>                <dbl>           <dbl>        <dbl>
 1 Y_114              287               0.923          0.00348       0.0732
-2 Y_56               286               0.0664         0.385         0.549 
-3 Y_1                 87               0.149          0.0345        0.816 
-# i 5 more variables: mean_homeostatic_score <dbl>,
+2 Y_56               286               0.0664         0.385         0.549
+3 Y_1                 87               0.149          0.0345        0.816
+# ℹ 5 more variables: mean_homeostatic_score <dbl>,
 #   median_homeostatic_score <dbl>, degree <dbl>,
 #   is_topological_endpoint <lgl>, old_selected_root <lgl>
 
 Root module sensitivity:
-# A tibble: 6 x 6
-  root  original_module     genes direction_concordance threshold_retained_fra~1
+# A tibble: 6 × 6
+  root  original_module     genes direction_concordance threshold_retained_fra…¹
   <chr> <chr>               <int>                 <dbl>                    <dbl>
 1 Y_1   D1_early_decreasing    45               0                              0
 2 Y_1   D2_late_increasing   1073               0                              0
@@ -22,14 +22,14 @@ Root module sensitivity:
 4 Y_114 D2_late_increasing   1073               1                              1
 5 Y_56  D1_early_decreasing    45               0                              0
 6 Y_56  D2_late_increasing   1073               0.00280                        0
-# i abbreviated name: 1: threshold_retained_fraction
-# i 1 more variable: median_rho <dbl>
+# ℹ abbreviated name: ¹​threshold_retained_fraction
+# ℹ 1 more variable: median_rho <dbl>
 
 Donor-level tests:
                  metric normal_median keloid_median keloid_minus_normal_mean
 1 median_old_pseudotime    6.74314299   15.13625624               11.4894568
 2       median_clean_D1    0.31729397    0.09122486               -0.2975381
-3       median_clean_D2    0.19022358    0.32005299                0.1358327
+3       median_clean_D2    0.21511833    0.34350674                0.1427822
 4  homeostatic_fraction    0.74418605    0.21505376               -0.4306866
 5       matrix_fraction    0.13953488    0.28646749                0.1229489
 6          ecm_fraction    0.09090909    0.36734694                0.3077377
@@ -66,38 +66,41 @@ Matrix products: default
   LAPACK version 3.12.1
 
 locale:
-[1] C
-system code page: 65001
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8
+[2] LC_CTYPE=Chinese (Simplified)_China.utf8
+[3] LC_MONETARY=Chinese (Simplified)_China.utf8
+[4] LC_NUMERIC=C
+[5] LC_TIME=Chinese (Simplified)_China.utf8
 
 time zone: Asia/Shanghai
 tzcode source: internal
 
 attached base packages:
-[1] splines   stats4    stats     graphics  grDevices utils     datasets 
-[8] methods   base     
+[1] splines   stats4    stats     graphics  grDevices utils     datasets
+[8] methods   base
 
 other attached packages:
- [1] tidyr_1.3.2         readr_2.2.0         dplyr_1.2.0        
- [4] igraph_2.2.2        monocle_2.99.0      DDRTree_0.1.6      
- [7] irlba_2.3.7         VGAM_1.1-14         ggplot2_4.0.3      
-[10] Biobase_2.70.0      BiocGenerics_0.56.0 generics_0.1.4     
-[13] Matrix_1.7-4       
+ [1] tidyr_1.3.2         readr_2.2.0         dplyr_1.2.0
+ [4] igraph_2.2.2        monocle_2.99.0      DDRTree_0.1.6
+ [7] irlba_2.3.7         VGAM_1.1-14         ggplot2_4.0.3
+[10] Biobase_2.70.0      BiocGenerics_0.56.0 generics_0.1.4
+[13] Matrix_1.7-4
 
 loaded via a namespace (and not attached):
- [1] viridis_0.6.5         utf8_1.2.6            slam_0.1-55          
- [4] stringi_1.8.7         lattice_0.22-7        hms_1.1.4            
- [7] magrittr_2.0.4        grid_4.5.2            RColorBrewer_1.1-3   
-[10] plyr_1.8.9            ggrepel_0.9.8         qlcMatrix_0.9.9      
-[13] limma_3.66.0          densityClust_0.3.3    combinat_0.0-8       
-[16] gridExtra_2.3         purrr_1.2.2           viridisLite_0.4.3    
+ [1] viridis_0.6.5         utf8_1.2.6            slam_0.1-55
+ [4] stringi_1.8.7         lattice_0.22-7        hms_1.1.4
+ [7] magrittr_2.0.4        grid_4.5.2            RColorBrewer_1.1-3
+[10] plyr_1.8.9            ggrepel_0.9.8         qlcMatrix_0.9.9
+[13] limma_3.66.0          densityClust_0.3.3    combinat_0.0-8
+[16] gridExtra_2.3         purrr_1.2.2           viridisLite_0.4.3
 [19] scales_1.4.0          cli_3.6.5             HSMMSingleCell_99.0.0
-[22] rlang_1.1.7           docopt_0.7.2          fastICA_1.2-7        
-[25] withr_3.0.2           RANN_2.6.2            FNN_1.1.4.1          
-[28] Rtsne_0.17            tools_4.5.2           parallel_4.5.2       
-[31] tzdb_0.5.0            reshape2_1.4.5        vctrs_0.7.1          
-[34] R6_2.6.1              matrixStats_1.5.0     lifecycle_1.0.5      
-[37] stringr_1.6.0         sparsesvd_0.2-3       cluster_2.1.8.1      
-[40] pkgconfig_2.0.3       pillar_1.11.1         gtable_0.3.6         
-[43] glue_1.8.0            Rcpp_1.1.1            statmod_1.5.2        
-[46] tibble_3.3.1          tidyselect_1.2.1      farver_2.1.2         
-[49] pheatmap_1.0.13       compiler_4.5.2        S7_0.2.1             
+[22] rlang_1.1.7           docopt_0.7.2          fastICA_1.2-7
+[25] withr_3.0.2           RANN_2.6.2            FNN_1.1.4.1
+[28] Rtsne_0.17            tools_4.5.2           parallel_4.5.2
+[31] tzdb_0.5.0            reshape2_1.4.5        vctrs_0.7.1
+[34] R6_2.6.1              matrixStats_1.5.0     lifecycle_1.0.5
+[37] stringr_1.6.0         sparsesvd_0.2-3       cluster_2.1.8.1
+[40] pkgconfig_2.0.3       pillar_1.11.1         gtable_0.3.6
+[43] glue_1.8.0            Rcpp_1.1.1            statmod_1.5.2
+[46] tibble_3.3.1          tidyselect_1.2.1      farver_2.1.2
+[49] pheatmap_1.0.13       compiler_4.5.2        S7_0.2.1

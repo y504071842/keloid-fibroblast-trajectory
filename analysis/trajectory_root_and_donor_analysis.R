@@ -256,7 +256,7 @@ write.csv(cell_meta, file.path(audit_dir, "discovery_cell_metadata_sensitivity.c
 metadata_columns <- data.frame(column = colnames(pd), class = vapply(pd, function(x) paste(class(x), collapse = ";"), character(1)))
 write.csv(metadata_columns, file.path(audit_dir, "trajectory_object_metadata_columns.csv"), row.names = FALSE)
 writeLines(capture.output({
-  cat("CDS:", cds_path, "\n")
+  cat("CDS input:", basename(cds_path), "\n")
   cat("cells:", ncol(cds), "genes:", nrow(cds), "\n")
   cat("old root:", old_root, "\n")
   cat("condition-blind endpoint candidates:", paste(candidate_roots, collapse = ", "), "\n")
@@ -267,7 +267,7 @@ writeLines(capture.output({
   print(sample_tests)
   cat("\nSession info:\n")
   print(sessionInfo())
-}), file.path(audit_dir, "phase1_reanalysis_report.txt"))
+}), file.path(audit_dir, "trajectory_root_donor_report.txt"))
 
 cat("phase1 complete\n")
 print(endpoint_candidates)
