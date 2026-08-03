@@ -63,4 +63,4 @@ Analysis code is released under the MIT License. Public source datasets remain s
 
 ## Citation
 
-The accompanying authors are Yutong Yuan, Yuanbo Liu, Tianxiao Wei, Shan Zhu, and Nuo Si. Machine-readable citation metadata are provided in `CITATION.cff`. The public repository is available at <https://github.com/y504071842/keloid-fibroblast-trajectory>. Version 1.0.2 is archived at <https://doi.org/10.5281/zenodo.21769958>, and the Zenodo concept DOI for all versions is <https://doi.org/10.5281/zenodo.21503330>.
+The accompanying authors are Yutong Yuan, Yuanbo Liu, Tianxiao Wei, Shan Zhu, and Nuo Si. Machine-readable citation metadata are provided in `CITATION.cff`. The public repository is available at <https://github.com/y504071842/keloid-fibroblast-trajectory>. Version 1.0.3 is archived at <https://doi.org/10.5281/zenodo.21771407>, and the Zenodo concept DOI for all versions is <https://doi.org/10.5281/zenodo.21503330>.

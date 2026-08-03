@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.3 - 2026-08-03
+
+- Synchronized the submitted Supplementary Methods, including discovery-cohort sample processing, library preparation, and primary read processing.
+- Replaced Supplementary Data S4 with the submission-ready workbook containing identical data and improved row heights for readability.
+- Regenerated the Supplementary Data checksum index against the synchronized files.
+
+This documentation and formatting update does not alter analysis code, gene definitions, numerical results, figures, or conclusions.
+
 ## v1.0.2 - 2026-08-03
 
 - Synchronized the manuscript title across the repository and Zenodo metadata.
