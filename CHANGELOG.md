@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.2 - 2026-08-03
+
+- Synchronized the manuscript title across the repository and Zenodo metadata.
+- Added discovery-cohort GSA-Human BioProject accession PRJCA070046 to the data-access documentation.
+- Replaced the provisional data-access wording with the current manuscript statement.
+- Updated the versioned Zenodo citation and release metadata.
+
+This metadata-only update does not alter analysis code, gene definitions, numerical results, figures, or supplementary data.
+
 ## v1.0.1 - 2026-07-24
 
 - Recomputed donor-level clean D2 summaries from the frozen 975-gene definition.

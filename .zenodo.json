@@ -1,6 +1,6 @@
 {
   "title": "Keloid fibroblast trajectory reproducibility package",
-  "description": "Analysis code, frozen gene definitions, parameter records, supplementary data, and machine-readable outputs accompanying the manuscript A single-cell trajectory framework of fibroblast state remodeling in keloids and its association with postoperative recurrence.",
+  "description": "Analysis code, frozen gene definitions, parameter records, supplementary data, machine-readable outputs, and public-data-derived processed inputs accompanying the manuscript A single-cell trajectory framework for fibroblast state remodeling and its association with postoperative recurrence in keloids. Raw single-cell RNA-sequencing data from the discovery cohort have been submitted to GSA-Human under BioProject accession PRJCA070046; further information regarding data access is available from the corresponding author upon reasonable request.",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
@@ -25,5 +25,5 @@
       "scheme": "url"
     }
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
