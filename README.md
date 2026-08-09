@@ -51,7 +51,7 @@ The bulk pipeline can be reconstructed from PRJNA813172 with the scripts prefixe
 
 ## Data access
 
-GSE191067 and PRJNA813172 are public. Raw single-cell RNA-sequencing data from the discovery cohort have been submitted to the Genome Sequence Archive for Human (GSA-Human) under BioProject accession PRJCA070046. Further information regarding data access is available from the corresponding author upon reasonable request. Patient-derived RDS objects are not committed to this repository; see `data/README.md`.
+GSE191067 and PRJNA813172 are public. Raw single-cell RNA-sequencing data from the discovery cohort have been deposited in the Genome Sequence Archive for Human (GSA-Human) under BioProject accession PRJCA070046 and GSA-Human accession HRA020030 (<https://ngdc.cncb.ac.cn/gsa-human/browse/HRA020030>). Patient-derived RDS objects are not committed to this repository; see `data/README.md`.
 
 ## Software
 
@@ -63,4 +63,4 @@ Analysis code is released under the MIT License. Public source datasets remain s
 
 ## Citation
 
-The accompanying authors are Yutong Yuan, Yuanbo Liu, Tianxiao Wei, Shan Zhu, and Nuo Si. Machine-readable citation metadata are provided in `CITATION.cff`. The public repository is available at <https://github.com/y504071842/keloid-fibroblast-trajectory>. Version 1.0.3 is archived at <https://doi.org/10.5281/zenodo.21771407>, and the Zenodo concept DOI for all versions is <https://doi.org/10.5281/zenodo.21503330>.
+The accompanying authors are Yutong Yuan, Wenjing Wang, Yuanbo Liu, Tianxiao Wei, Shan Zhu, and Nuo Si. Machine-readable citation metadata are provided in `CITATION.cff`. The public repository is available at <https://github.com/y504071842/keloid-fibroblast-trajectory>. Version 1.0.4 is archived at <https://doi.org/10.5281/zenodo.21860557>, and the Zenodo concept DOI for all versions is <https://doi.org/10.5281/zenodo.21503330>.
