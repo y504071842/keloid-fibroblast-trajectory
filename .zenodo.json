@@ -1,10 +1,11 @@
 {
   "title": "Keloid fibroblast trajectory reproducibility package",
-  "description": "Analysis code, frozen gene definitions, parameter records, supplementary data, machine-readable outputs, and public-data-derived processed inputs accompanying the manuscript A single-cell trajectory framework for fibroblast state remodeling and its association with postoperative recurrence in keloids. Raw single-cell RNA-sequencing data from the discovery cohort have been submitted to GSA-Human under BioProject accession PRJCA070046; further information regarding data access is available from the corresponding author upon reasonable request.",
+  "description": "Analysis code, frozen gene definitions, parameter records, supplementary data, machine-readable outputs, and public-data-derived processed inputs accompanying the manuscript A single-cell trajectory framework for fibroblast state remodeling and its association with postoperative recurrence in keloids. Raw single-cell RNA-sequencing data from the discovery cohort have been deposited in GSA-Human under BioProject accession PRJCA070046 and GSA-Human accession HRA020030 (https://ngdc.cncb.ac.cn/gsa-human/browse/HRA020030).",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
     {"name": "Yuan, Yutong", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
+    {"name": "Wang, Wenjing", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
     {"name": "Liu, Yuanbo", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
     {"name": "Wei, Tianxiao", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
     {"name": "Zhu, Shan", "affiliation": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College"},
@@ -25,5 +26,5 @@
       "scheme": "url"
     }
   ],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
