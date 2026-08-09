@@ -22,12 +22,24 @@ jobs:
           mkdir -p /tmp/keloid-release
           python - <<'PY'
           import pathlib
+          import shutil
           import zipfile
 
           archive = pathlib.Path("/tmp/release.zip")
           destination = pathlib.Path("/tmp/keloid-release")
           with zipfile.ZipFile(archive) as source:
-              source.extractall(destination)
+              for member in source.infolist():
+                  normalized = member.filename.replace("\\", "/")
+                  parts = pathlib.PurePosixPath(normalized).parts
+                  if ".." in parts:
+                      raise ValueError(f"Unsafe archive member: {member.filename}")
+                  target = destination.joinpath(*parts)
+                  if member.is_dir() or normalized.endswith("/"):
+                      target.mkdir(parents=True, exist_ok=True)
+                  else:
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      with source.open(member) as src, target.open("wb") as dst:
+                          shutil.copyfileobj(src, dst)
           PY
           rsync -a --delete --exclude='.git/' --exclude='.github/' /tmp/keloid-release/keloid-fibroblast-trajectory-1.0.4/ ./
           rm -rf /tmp/release.zip /tmp/keloid-release
