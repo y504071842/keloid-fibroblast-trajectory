@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.4 - 2026-08-09
+
+- Added the assigned GSA-Human accession HRA020030 and its record URL to the data-access documentation.
+- Synchronized six-author metadata by adding Wenjing Wang to the citation and Zenodo creator lists.
+- Updated the version-specific Zenodo citation and release metadata.
+
+This metadata-only update does not alter analysis code, gene definitions, numerical results, figures, supplementary data, or conclusions.
+
 ## v1.0.3 - 2026-08-03
 
 - Synchronized the submitted Supplementary Methods, including discovery-cohort sample processing, library preparation, and primary read processing.
