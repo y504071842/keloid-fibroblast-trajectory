@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: "Yuan"
     given-names: "Yutong"
+  - family-names: "Wang"
+    given-names: "Wenjing"
   - family-names: "Liu"
     given-names: "Yuanbo"
   - family-names: "Wei"
@@ -14,7 +16,7 @@ authors:
   - family-names: "Si"
     given-names: "Nuo"
 repository-code: "https://github.com/y504071842/keloid-fibroblast-trajectory"
-doi: "10.5281/zenodo.21771407"
+doi: "10.5281/zenodo.21860557"
 license: MIT
-version: "1.0.3"
-date-released: "2026-08-03"
+version: "1.0.4"
+date-released: "2026-08-09"
