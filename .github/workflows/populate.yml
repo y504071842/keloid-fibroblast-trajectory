@@ -20,7 +20,15 @@ jobs:
           curl -L "https://zenodo.org/records/21860557/files/keloid-fibroblast-trajectory-v1.0.4.zip?download=1" -o /tmp/release.zip
           rm -rf /tmp/keloid-release
           mkdir -p /tmp/keloid-release
-          unzip -q /tmp/release.zip -d /tmp/keloid-release
+          python - <<'PY'
+          import pathlib
+          import zipfile
+
+          archive = pathlib.Path("/tmp/release.zip")
+          destination = pathlib.Path("/tmp/keloid-release")
+          with zipfile.ZipFile(archive) as source:
+              source.extractall(destination)
+          PY
           rsync -a --delete --exclude='.git/' --exclude='.github/' /tmp/keloid-release/keloid-fibroblast-trajectory-1.0.4/ ./
           rm -rf /tmp/release.zip /tmp/keloid-release
       - name: Commit package
