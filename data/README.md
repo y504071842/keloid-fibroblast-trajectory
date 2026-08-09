@@ -9,7 +9,7 @@ The bulk FASTQ files can be reconstructed from PRJNA813172 using the scripts in 
 
 ## Discovery-cohort sequencing data
 
-Raw single-cell RNA-sequencing data from the discovery cohort have been submitted to the Genome Sequence Archive for Human (GSA-Human) under BioProject accession **PRJCA070046**. Further information regarding data access is available from the corresponding author upon reasonable request.
+Raw single-cell RNA-sequencing data from the discovery cohort have been deposited in the Genome Sequence Archive for Human (GSA-Human) under BioProject accession **PRJCA070046** and GSA-Human accession **HRA020030** (<https://ngdc.cncb.ac.cn/gsa-human/browse/HRA020030>).
 
 ## Frozen discovery inputs
 
