@@ -74,9 +74,9 @@
       "legacy_story_terms": []
     },
     "input_checksum_status": {
-      "discovery_trajectory_programDE_cds.rds": "match",
-      "discovery_trajectory_graph_pseudotime_cds.rds": "match",
-      "discovery_fibroblast_subclustered.rds": "match",
+      "discovery_trajectory_programDE_cds.rds": "not supplied; manifest only",
+      "discovery_trajectory_graph_pseudotime_cds.rds": "not supplied; manifest only",
+      "discovery_fibroblast_subclustered.rds": "not supplied; manifest only",
       "GSE191067_standard_reclustered_scored.rds": "not supplied; manifest only",
       "Step04B_clean_gene_symbol_log2TPM_plus1_matrix.csv": "not supplied; manifest only",
       "Step04B_clean_metadata_matched_to_expression.csv": "not supplied; manifest only",
